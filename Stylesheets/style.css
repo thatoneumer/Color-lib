@@ -14,7 +14,7 @@
     text-decoration: none;
     font-family: var(--myFont);
     text-transform: uppercase;
-    /* border: none; */
+    border: none;
 }
 
 .main-cont
@@ -288,7 +288,7 @@ button h1
 }
 
 @media screen and (max-width:619){
-    
+
 }
 
 
