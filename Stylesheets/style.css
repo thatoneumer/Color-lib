@@ -219,17 +219,22 @@ button
 button:hover
 {
     color: white;
+    background-color: rgba(0, 0, 0, 0.393);
     
 }
 
 button h2
 {
     font-size: 10px;
+    padding-left: 5px;
+    padding-bottom: 5px;
 }
 
 button h1
 {
     font-size: 20px;
+    padding-left: 5px;
+    padding-bottom: 5px;
 }
 
 .loading-bar
@@ -261,7 +266,9 @@ button h1
 .footer-para
 {
     width: 50%;
-    color: white;
+    font-family: sans-serif;
+    font-weight: lighter;
+    color: var(--myfontColor);
     text-align: center;
 }
 
