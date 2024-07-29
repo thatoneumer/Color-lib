@@ -14,6 +14,7 @@
     text-decoration: none;
     font-family: var(--myFont);
     text-transform: uppercase;
+    /* border: none; */
 }
 
 .main-cont
@@ -22,13 +23,6 @@
     width: 100vw;
     background-color: #ffff;
     overflow-x: hidden;
-}
-
-.cont-box
-{
-    width: 100%;
-    height: 100%;
-    position: relative;
 }
 
 /* Navbar */
@@ -118,9 +112,9 @@
 
 .center-hero
 {
-    position: absolute;
     width: 100%;
-    top: 70px;
+    padding-bottom: 70px;
+    padding-top: 70px;
 }
 
 .heading-hero
@@ -142,8 +136,6 @@
 
 .hero-item-bars
 {
-    position: absolute;
-    top: 100%;
     height: auto;
     width: 100%;
 }
@@ -199,6 +191,7 @@
 .gallery-img{
     height: 200px;
     width: 300px;
+    border: none !important;
     position: relative;
     transition: transform .2s;
     cursor: pointer;
@@ -213,18 +206,14 @@
 
 button
 {
-    display: flex;
     background: transparent;
     color: transparent;
-    flex-direction: column;
-    border: 1px solid red;
     height: 100%;
     width: 100%;
     position: absolute;
     bottom: 0px;
     left: 0px;
     transition: 2s ease;
-    justify-content: flex-end;
 }
 
 button:hover
@@ -243,12 +232,63 @@ button h1
     font-size: 20px;
 }
 
+.loading-bar
+{
+    margin-top: 10px;
+    width: 100%;
+    height: 80px;
+}
+
+.footer-box
+{
+    width: 100%;
+    height: 25.2%;
+    overflow-x: hidden;
+}
+
+.footer-content
+{
+    background-color: #222222;
+    width: 100%;
+    height: 100px;
+}
+
+.footer-logo
+{
+    padding-left: 20px;
+}
+
+.footer-para
+{
+    width: 50%;
+    color: white;
+    text-align: center;
+}
+
+.footer-icons
+{
+    padding-right: 20px;
+    gap: 30px;
+}
+
 
 @media screen and (max-width:831px){
     .right ul li {
         display: none;
         }
+}
 
+@media screen and (max-width:875px) {
+
+    .footer-para
+    {
+        display: none;
+    }
+    
+}
+
+@media screen and (max-width:619){
+    
 }
 
 
