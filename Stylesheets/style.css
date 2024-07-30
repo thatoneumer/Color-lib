@@ -159,7 +159,7 @@
 .hero-item-bars ul li:hover {
     font-weight: bold;
     cursor: pointer;
-    background: green;
+    background: var(--myfontColor);
     border-radius: 5px;
     color: white;
 }
